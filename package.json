@@ -1,0 +1,14 @@
+{
+  "name": "node-server-side-requests-url-shortener",
+  "version": "1.0.0",
+  "description": "galvanize learn exercise",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wes whitney",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
