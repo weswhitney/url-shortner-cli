@@ -1,10 +1,12 @@
 var request = require('request');
+require('dotenv').config()
+
 
 var urlToShorten = process.argv[2];
 
 var data = {'longUrl' : urlToShorten}
 
-var url = 'https://www.googleapis.com/urlshortener/v1/url' + '?key=AIzaSyC8qx_Gk5BQIGloLt6dezSs6QYnAIYcyDU';
+var url = 'https://www.googleapis.com/urlshortener/v1/url' + '?key=' + process.env.API_KEY;
 
 var options = {
   uri: url,
